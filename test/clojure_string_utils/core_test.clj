@@ -13,3 +13,11 @@
       (capitalize-words nil)))
   (is (= "Capitalized Words"
       (capitalize-words "Capitalized words"))))
+
+(deftest to-snake-case-tests
+  (is (= "snake_case_string"
+      (to-snake-case "Snake case String")))
+  (is (= "snake_case_string"
+      (to-snake-case " Snake case String ")))
+  (is (= "snake_case_string"
+      (to-snake-case " Snake    case    String "))))
