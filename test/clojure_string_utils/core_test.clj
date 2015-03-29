@@ -21,3 +21,7 @@
       (to-snake-case " Snake case String ")))
   (is (= "snake_case_string"
       (to-snake-case " Snake    case    String "))))
+
+(deftest to-camel-case-tests
+  (is (= "CamelCase"
+      (to-camel-case "camel_case"))))

@@ -21,3 +21,10 @@
     (split
       (lower-case
         (compact-spaces input)) #" ")))
+
+(defn to-camel-case
+  "Converts string to camel-case"
+  [input]
+  (join
+    (map capitalize
+      (split input #"_"))))
