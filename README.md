@@ -6,6 +6,13 @@ A Clojure library designed to ... well, that part is up to you.
 
 FIXME
 
+More Information
+----------------
+
+* Source (Git): <https://github.com/lamuria/clojure-string-utils/>
+* Issues: <https://github.com/lamuria/clojure-string-utils/issues/>
+* License: MIT
+
 ## License
 
 Copyright © 2015 FIXME
